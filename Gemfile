@@ -38,6 +38,10 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.6'
   gem 'capybara'
+  gem 'factory_bot_rails', '~> 4.0'
+  gem 'faker'
+  gem 'httparty'
+  gem 'webmock'
 end
 
 group :development do
