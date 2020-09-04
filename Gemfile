@@ -46,6 +46,11 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'webmock'
   gem 'vcr'
+  gem 'rails-controller-testing'
+  gem 'selenium-webdriver'
+  gem 'webdrivers'
+  gem 'rspec-json_expectations'
+  gem 'json_matchers'
 end
 
 group :development do
